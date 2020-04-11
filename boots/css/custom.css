@@ -1,0 +1,21 @@
+body{ 
+    background-color:rgb(250, 243, 243);
+}
+
+form {
+    border: 2px solid rgb(96, 88, 167);
+    /* width: 50rem; */
+    background-color: rgb(218, 214, 214);
+    padding: 8rem 3rem 8rem 1rem;
+}
+
+#output{
+    color: rgb(27, 41, 245);
+    font-size: 30px;
+    margin-top: 1rem;
+}
+
+input {
+    margin: 1rem;
+}
+

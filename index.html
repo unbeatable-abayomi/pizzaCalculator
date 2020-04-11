@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./boots/css/bootstrap.min.css"/>
+    <link rel="stylesheet" type="text/css" href="./boots/css/custom.css"/>
+    <title>Pizz Order Application</title>
+</head>
+<body>
+  
+        
+<section class="container">
+    <div class="row">
+        <div class="col-md-2"></div>
+        
+        <div class="col-md-8 text-center">
+             <h2>Pizza Calculator</h2>
+            <form>
+
+
+                <input type="text" id ="first" class="form-control" placeholder="1 Slice of Pizza" required>
+                <small class="form-text text-muted">People that will eat One Slice of Pizza.</small>
+               
+                <input type="text" id = "second" class="form-control" placeholder="2 Slices of Pizza" required>
+                <small class="form-text text-muted">People that will eat Two Slices of Pizza.</small>
+            
+                <input type="text" id ="third" class="form-control" placeholder="3 Slices of Pizza" required>
+                <small class="form-text text-muted">People that will eat Three Slices of Pizza.</small>
+      
+            
+                <input type="text" id = "fourth" class="form-control" placeholder="4 Slices of Pizza" required>
+                <small class="form-text text-muted">People that will eat Four Slices of Pizza.</small>
+      
+            
+                <button id="btn" class="mt-3 btn btn-primary">Calculate</button>
+               
+                
+               
+                <center>
+                    <span class="mt-5" id="output"></span>
+                </center>
+               
+            </form>
+           
+        </div>
+        <div class="col-md-2"></div>
+    </div>
+</section>
+
+
+<script src="./boots/js/jquery.js"></script>
+<script src="./boots/js/index.js"></script>
+</body>
+</html>
